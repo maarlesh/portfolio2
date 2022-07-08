@@ -1,0 +1,26 @@
+.Image-home{
+    border-radius: 45%;
+    width: 50px;
+    height: 50px;
+}
+.button {
+    border-radius: 50%;
+    background-color: #b09371;
+
+    padding: 2px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 58px;
+    height: 58px;
+    transition: box-shadow 0.6s ease-in-out;
+}
+.button:hover {
+    color: #000;
+    box-shadow: 0 0 5px #361d17,
+                0 0 20px #572d23,
+                0 0 35px #9b4935,
+                0 0 50px #df6c50;
+    border-color: #361d17;
+}

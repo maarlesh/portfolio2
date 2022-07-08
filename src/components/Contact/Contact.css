@@ -1,0 +1,70 @@
+.sub{
+    box-sizing: border-box;
+    color:#361d17;
+    font-size: 28px;
+    font-family: 'garet', Bold;
+    padding-left:20%;
+    margin:0;
+}
+
+.Form{
+    margin-left: 20%;
+    width: 80%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* align-items: left;
+    justify-content: left; */
+    flex-wrap: wrap;
+}
+
+input[type=email], select, textarea {
+    width: 70%;
+    height: 5px;
+    padding: 12px;
+    background:#b09371;
+    color: white;
+    border: 2px solid #361d17;
+    border-radius: 4px;
+    resize: vertical;
+    padding: 25px 35px;
+    margin:0.9%;
+  }
+  .contact-btn {
+    margin-left: 1%;
+    border: 2px solid #361d17;
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 30%;
+    text-align: center;
+    padding: 17px 35px;
+    background: #b09371;
+    border-radius: 4px;
+}
+.body-input {
+    height: 250px;
+    padding: 25px 35px;
+}
+.pageclip-form__submit::after {
+    border-color: #b09371;
+    border-left-color: #361d17;
+  }
+  @media only screen and (max-width: 450px) {
+    .sub{
+        font-size: 22px;
+    }
+    input[type=email], select, textarea{
+       width:80%;
+    }
+    .Form{
+        width: 80%;
+        margin: 10%;
+    }
+  .contact-btn{
+    width: 100%;
+    margin-left: 1%;
+  }
+}

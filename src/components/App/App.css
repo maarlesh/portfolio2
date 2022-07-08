@@ -1,0 +1,41 @@
+  
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    color:#b09371;
+    background-color: #b09371;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.content{
+    box-sizing: border-box;
+    min-height: 90vh;
+    position: relative;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+/* For the small width screens */
+@media only screen and (max-width: 640px) {
+    .content
+        {
+        padding: 100px 0;
+    }
+}
