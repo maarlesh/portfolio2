@@ -7,11 +7,12 @@ import './Projects.css';
 const Projects = () => {
     return (
         <div className='content'>
+            <div className='heading'>
             <Header
                 heading='My Projects.'
             
             />
-
+            </div>
             <div className='project-cards-container'>
                 {projectsData.map(
                     ({

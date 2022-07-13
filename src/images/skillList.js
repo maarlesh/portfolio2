@@ -35,13 +35,4 @@ export const skillList = [
         skillName: 'Python',
         skillUrl: 'https://raw.githubusercontent.com/anishashruti/Images/main/python-removebg-preview.png',
     },
-    {
-        skillName: 'Flask',
-        skillUrl: 'https://raw.githubusercontent.com/anishashruti/Images/main/flask-removebg-preview.png',
-    },
-    {
-        skillName: 'Django',
-        skillUrl: 'https://raw.githubusercontent.com/anishashruti/Images/main/Django-removebg-preview.png',
-    },
-
 ];

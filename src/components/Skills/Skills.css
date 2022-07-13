@@ -3,7 +3,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 80px 20%;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .skill {
@@ -23,7 +25,9 @@
     padding: 10px;
 }
 .skill > img :hover {
-    box-shadow:#c52323 ;
+    box-shadow: 0 0 42px #00ffff,
+    0 0 82px  #00FFFF,
+    0 0 92px  #00FFFF;;
 }
 .skill > p {
     font-family: 'garet',bold ;
@@ -31,7 +35,7 @@
     line-height: 36px;
     text-align: center;
     letter-spacing: -0.015em;
-    color:#361d17;
+    color:#00FFFF;
     margin: 0;
 }
 /* Zoom Out #2 */
@@ -49,4 +53,12 @@
     .skill-card-container {
         margin: 80px 10%;
     }
+}
+
+.heading{
+    margin-top: -50px;
+    text-shadow:
+    0 0 42px #00ffff,
+    0 0 82px  #00FFFF,
+    0 0 92px  #00FFFF;
 }

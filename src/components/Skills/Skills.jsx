@@ -7,10 +7,11 @@ import SkillCard from './SkillCard';
 const Skills = () => {
     return (
         <div className='content'>
+            <div className='heading'>
             <Header
-                heading='My Skills.'
+                heading='My Skills'
             />
-
+            </div>
             <div className='skill-card-container'>
                 {skillList.map(({ skillName, skillUrl }) => (
                     <SkillCard skillName={skillName} skillUrl={skillUrl} />

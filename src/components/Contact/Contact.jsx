@@ -5,10 +5,14 @@ import "./Contact.css"
 const Contact = props => {
     return (
         <div className="content">
+            <div className='heading'>
             <Header
                 heading='Contact Me!'
             />
-            <p className="sub">Feel free to drop an E-mail</p>
+            </div>
+            <p className="sub">Drop an E-mail</p>
+            <br>
+            </br>
             <div className="Form" >
             <form action="https://send.pageclip.co/pyq7fzQS8HJxBmX1ynAlN9WKYEgmlrUo/contact-me" class="pageclip-form" method="post">    
                     <input
@@ -28,8 +32,10 @@ const Contact = props => {
                     ></textarea>
 
                     {/* Submit button */}
+                    <br>
+                    </br>
                     <a href='/portfolio2#'>
-                        <button type='submit' class='contact-btn pageclip-form__submit'>
+                        <button type='submit' class='contact-btn btn-text1 pageclip-form__submit'>
                             Send Email
                         </button> 
                     </a>

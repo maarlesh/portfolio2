@@ -1,10 +1,18 @@
+.heading{
+  margin-top: -50px;
+  text-shadow:
+  0 0 42px #00ffff,
+  0 0 82px  #00FFFF,
+  0 0 92px  #00FFFF;
+}
+
 .sub{
     box-sizing: border-box;
-    color:#d1a196;
+    color:#00ffff;
     font-size: 28px;
     font-family: 'garet', Bold;
-    padding-left:20%;
-    margin:0;
+    padding-left:23%;
+    margin:-30px;
 }
 
 .Form{
@@ -14,8 +22,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* align-items: left;
-    justify-content: left; */
     flex-wrap: wrap;
 }
 
@@ -23,9 +29,9 @@ input[type=email], select, textarea {
     width: 70%;
     height: 5px;
     padding: 12px;
-    background:#b09371;
-    color:black;
-    border: 2px solid #361d17;
+    background:#223232;
+    color:white;
+    border: 2px solid cyan;
     border-radius: 4px;
     resize: vertical;
     padding: 25px 35px;
@@ -34,7 +40,6 @@ input[type=email], select, textarea {
   }
   .contact-btn {
     margin-left: 1%;
-    border: 2px solid #361d17;
     color: #fff;
     font-style: normal;
     font-size: 14px;
@@ -68,4 +73,16 @@ input[type=email], select, textarea {
     width: 100%;
     margin-left: 1%;
   }
+}
+.btn-text1{
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  
+}
+.btn-text1:hover{
+background-color:  black;
+box-shadow:0 0 20px #00ffff;
 }
