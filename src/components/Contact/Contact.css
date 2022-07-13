@@ -1,6 +1,6 @@
 .sub{
     box-sizing: border-box;
-    color:#361d17;
+    color:#d1a196;
     font-size: 28px;
     font-family: 'garet', Bold;
     padding-left:20%;
@@ -24,12 +24,13 @@ input[type=email], select, textarea {
     height: 5px;
     padding: 12px;
     background:#b09371;
-    color: white;
+    color:black;
     border: 2px solid #361d17;
     border-radius: 4px;
     resize: vertical;
     padding: 25px 35px;
     margin:0.9%;
+    font-size: large;
   }
   .contact-btn {
     margin-left: 1%;

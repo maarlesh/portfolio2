@@ -5,10 +5,13 @@ import about from "./../../images/profile.jpg"
 import "./About.css"
 const About = props => {
     return (
-        <div className="content">
-            <Header
-                heading='About'
-            />
+        <div className="content ">
+            
+            <div className='neonText'>
+                <Header
+                    heading='About'
+                />
+            </div>
             <div className="about-content">
                 <div className="about-left">
                     I’m a Web Developer from India.<br></br>

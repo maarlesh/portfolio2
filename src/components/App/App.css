@@ -5,8 +5,8 @@ body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
-    color:#b09371;
-    background-color: #b09371;
+    color:white;
+    background-color: black;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }

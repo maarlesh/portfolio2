@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { slide as Menu } from 'react-burger-menu'
 import {Link , withRouter} from 'react-router-dom';
 import './NavBar.css';
-import im from "./../../images/A-logo.png"
+import im from "./../../images/A-logo.gif"
 
  class NavBar extends Component {
     render() {
