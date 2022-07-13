@@ -9,7 +9,7 @@ const Contact = props => {
             />
             <p className="sub">Feel free to drop an E-mail</p>
             <div className="Form" >
-                    <form class="pageclip-form" action="https://send.pageclip.co/snuvftpkeaWmcOyISybpXcTorbBAK9F9/contact-me" method="post">
+            <form action="https://send.pageclip.co/pyq7fzQS8HJxBmX1ynAlN9WKYEgmlrUo/contact-me" class="pageclip-form" method="post">    
                     <input
                         type='email'
                         placeholder='Your Email ID'
