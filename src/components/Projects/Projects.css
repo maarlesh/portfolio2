@@ -29,9 +29,7 @@
 }
 
 .project-card:hover {
-    box-shadow: 0 0 42px #00ffff,
-    0 0 82px  #00FFFF,
-    0 0 92px  #00FFFF;
+    box-shadow: 0 0 42px #00ffff;
     transition: all 0.3s;
 }
 .infos{
