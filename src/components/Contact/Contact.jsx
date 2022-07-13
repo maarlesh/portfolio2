@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import "./Contact.css"
+
 const Contact = props => {
     return (
         <div className="content">
@@ -27,9 +28,11 @@ const Contact = props => {
                     ></textarea>
 
                     {/* Submit button */}
-                    <button type='submit' class='contact-btn pageclip-form__submit'>
-                        Send Email
-                    </button>
+                    <a href='/portfolio2#'>
+                        <button type='submit' class='contact-btn pageclip-form__submit'>
+                            Send Email
+                        </button> 
+                    </a>
                     </form>
 
             </div>
